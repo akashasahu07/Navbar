@@ -74,7 +74,7 @@ nav {
 
 main {
     background-image: url(images/background.jpg);
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     height: calc(100vh - 20px);
 }
@@ -130,5 +130,9 @@ main {
 
     .links a:hover::after {
         transform: scaleX(1);
+    }
+
+    main {
+        background-size: cover;
     }
 }
